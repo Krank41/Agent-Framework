@@ -12,7 +12,6 @@ Agent-Framework is a versatile framework designed for implementing agentic behav
   ```plaintext
   OPENAI_API_KEY=<your_openai_api_key>
   ORGANIZATION_ID=<your_organization_id>
-  VECTOR_DB=weaviate
   ```
 
 ## Running the Framework
