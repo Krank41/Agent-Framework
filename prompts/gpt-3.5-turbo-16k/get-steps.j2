@@ -1,0 +1,23 @@
+Please create a series of steps to accomplish the following task:
+
+**Task:** {{ task }}
+
+## Constraints:
+
+1. Always include the 'finish' ability as the final step.
+2. Avoid using abilities as arguments for other abilities.
+3. Avoid reading every file, especially if they are large or may contain sensitive data.
+4. Use placeholders marked with '<>' for steps that require undefined data.
+5. Note that 'read_file' can only display the initial 255 characters; it won't show the entire file.
+6. Prioritize local data sources over online ones.
+7. Restrict 'read_file' to text documents, excluding CSVs or tabulated data.
+8. When engaging in scraping tasks, consider using 'file_content_length' before 'read_file.'
+   8a. If the content exceeds 255 characters, consider other methods
+9. If you are unfamiliar with a programming library, consult online documentation for guidance.
+10. When tackling steps, consider all available data files (.csv, .txt, etc.). Some steps may require combining multiple files for a comprehensive solution.
+
+## Resources:
+
+1. Utilize the 'list_files' ability to check for data files.
+
+By adhering to these constraints, you can efficiently plan the steps for the task, ensuring compliance with the provided guidelines and maintaining accuracy.
