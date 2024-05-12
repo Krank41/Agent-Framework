@@ -229,7 +229,7 @@ class ForgeAgent(Agent):
                         output = err
                         self.add_chat(task_id=task_id,role="system",content=f"[{timestamp}] Ability {ability['name']} failed to run: {err}")
                     LOG.info(f"Ability Output\n{output}")
-                    if output == None or output = "":
+                    if output == None or output == "":
                         output = "Ability Executed successfully.Task completed"
                         
                     if isinstance(output, bytes):
