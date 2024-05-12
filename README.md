@@ -1,6 +1,8 @@
 # Agent-Framework
 
 Agent-Framework is a versatile framework designed for implementing agentic behavior in large language models. It enables developers to build intelligent agents capable of performing tasks and interacting with users in various contexts.
+Read Docs for more understanding:
+https://docs.google.com/document/d/18wuWRRlBBVObpFFwSKoqeKh6-_30XeRGrotVA_rWZFM/edit?usp=sharing
 
 ## Prerequisites
 - Python version 3.10.12 is required to run this framework.
